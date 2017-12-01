@@ -1,0 +1,158 @@
+
+nav {
+  font-family: 'Gill Sans', cursive;
+  background-color: #a1a8b5;
+}
+
+.brand-logo.white-text{
+  font-size:40px;
+}
+
+body {
+  background-color:#ffffff !important;
+}
+
+/*全体の横幅*/
+div.container-fluid{
+  background-color:white;
+  padding-right:0;
+  padding-left:0;
+}
+
+
+.Row1 {
+  font-family: 'Gill Sans', cursive;
+  background-color: #ffffff;
+  text-align: center;
+  color: #b8dafd;
+  padding-right:0;
+  padding-left:0;
+  padding-bottom:10%;
+  margin-bottom:0;
+  height:500px;
+  vertical-align: middle;
+}
+
+/*親要素*/
+
+.leftcolmun{
+  height:100%;
+  position:relative;
+}
+.rightcolmun{
+  height:100%;
+  position:relative;
+}
+
+/*センタリングしたい要素*/
+/*slide1 */
+.uploader{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  background-color:#ffffff;
+  border-radius:5px;
+  border:10px dashed #cfcfcf;
+  width:60%;
+  text-align:center;
+  /*margin-left:8%;*/
+  margin-left: 20%;
+}
+
+
+/*upload image*/
+.uploader .image{
+  line-height:100px;
+  font-size:xx-large;
+  text-align:center;
+  color:#AAA;
+}
+/*upload image ホバー*/   
+.uploader:hover .image{
+  color:#333;
+}
+
+.uploader .image .uploadspan{
+  font-family: 'Gill Sans', cursive;
+  font-weight:bold;
+}
+
+.file-path-wrapper{
+  font-family: 'Gill Sans', cursive;
+  color:#383B3B;  
+  position:absolute;
+  width:100%;
+  font-weight:bold;
+}
+
+/*アップロードファイルの下線*/      
+.file-path.validate.shiny-bound-input.valid{
+  border-bottom:solid 0px #ffffff;
+}
+      
+      
+/*slide2 */
+.uploader2{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  background-color:#ffffff;
+  border-radius:5px;
+  /*border:10px dashed #cfcfcf;*/
+  width:60%;
+  text-align:center;
+  /*margin-left:8%;*/
+  margin-left: 20%;
+}
+
+
+/*upload image*/
+.uploader2 .image{
+  line-height:100px;
+  font-size:xx-large;
+  text-align:center;
+  color:#AAA;
+}
+/*upload image ホバー*/   
+.uploader2:hover .image{
+  color:#333;
+}
+
+.uploader2 .image .uploadspan{
+  font-family: 'Gill Sans', cursive;
+  font-weight:bold;
+}
+      
+      
+div.original_image {
+  position:relative;
+  border-radius:5px;
+  border:10px solid #EDF1F2;
+  margin-top:7%;
+  width:80%;
+}
+
+      
+      
+
+/*Footer*/
+a {
+  color:#EDF1F2; /*new colour*/
+  font-size:18px;
+  margin-right:3%;
+}
+
+footer {
+  background-color:#a1a8b5;
+  text-align:right;
+  font-family: 'Gill Sans', cursive;
+  color:white;
+  height:50px;
+  width:100%;
+  vertical-align:bottom;
+  position: fixed;
+  bottom: 0;
+}
+
+
+      
