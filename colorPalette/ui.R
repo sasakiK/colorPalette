@@ -32,16 +32,7 @@ slide2 <- fluidRow(class = "Row1",
                                  )
                    ) # end of col
 ) # end of row
-  
-  # div( style = "height:500px;width:100%;",
-  #              material_text_box(input_id = "text_url",
-  #                                label = span(class="glyphicon glyphicon-link", 
-  #                                             span(class = "uploadspan", "paste URL link"))
-  #              ),
-  #              actionButton("submit", label = span(class="glyphicon glyphicon-submit", 
-  #                                                 span(class = "uploadspan", "submit"))
-  #                           )
-  #         )
+
 slide3 <- fluidRow(class = "Row1",
                    shiny::column(class = "rightcolmun", width = 12, align = "center",
                                  div( class = "original_image", align = "center",
@@ -49,16 +40,9 @@ slide3 <- fluidRow(class = "Row1",
                                  )
                    )
 )
-  # 
-  # 
-  # 
-  # div( style = "height:500px;width:100%;",
-  #              imageOutput("contents") %>% withSpinner(type = 5, color = "#434544") 
-  #           # material_file_input(input_id = "slide3", label = " ")
-  #         )
 
 
-ui <- material_page(title = "Fixed slider",
+ui <- material_page(title = "Color Palette",
   
   includeCSS("styles.css"),
                     
@@ -92,7 +76,6 @@ fluidPage(
 ),
 
 tags$footer(
-  tags$br(),
   tags$a(href = "https://qiita.com/sasaki_K_sasaki", "qiita@sasaki_K_sasaki"),
   tags$a(href = "https://github.com/sasakiK", icon("github"))
 )
