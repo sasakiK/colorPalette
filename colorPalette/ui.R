@@ -7,9 +7,12 @@ slide1 <- fluidRow(class = "Row1",
                                  div(class = "uploader", 
                                      div(class = "image", 
                                          material_file_input(input_id = "input_img_file",
-                                                             label = span(class="glyphicon glyphicon-cloud-upload", 
-                                                                          span(class = "uploadspan", "Click & Upload")
-                                                             ),
+                                                             label = span(class = "material-icons", "cloud_upload",
+                                                                          span(class = "uploadspan", "　Click & Upload"),
+                                                                          style = "font-size:xx-large;"),
+                                                                      # span(class="glyphicon glyphicon-cloud-upload",
+                                                                      #     span(class = "uploadspan", "Click & Upload")
+                                                                      # ),
                                                              color = "#434544"
                                          )
                                      )
